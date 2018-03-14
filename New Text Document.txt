@@ -1,0 +1,8 @@
+<!-- <?php
+				$qry="SELECT * FROM tbl_cat;";
+				$sql = mysqli_query($db,$qry) or die("connection failed here".mysqli_error($conn));
+				while($row = mysqli_fetch_assoc($sql)){
+				?>
+					<option value="<?php echo $row['cat_id'];?>"><?php echo $row['cat_name'];?></option>	
+				}
+			<?php } ?> -->
